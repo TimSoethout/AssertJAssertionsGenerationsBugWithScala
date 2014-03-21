@@ -1,4 +1,7 @@
 package pack
 
-case class Scala(field : String) // assertj-assertions-generator fails with case classes
+// assertj-assertions-generator fails with case classes
+object Scala {
+  def method = 1
+}
 //class Scala(field : String) {}

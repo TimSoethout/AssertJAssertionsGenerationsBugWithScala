@@ -19,6 +19,6 @@ public class JavaTest {
 
     @Test
     public void scalaTest() {
-        assertThat(new Scala("test")).isNotNull();
+        assertThat(Scala.method()).isNotNull();
     }
 }
